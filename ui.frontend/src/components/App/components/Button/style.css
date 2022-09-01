@@ -1,0 +1,36 @@
+.btn-back {
+    border: none;
+    background-color: white;
+    position: relative;
+}
+
+.btn-back-offset {
+    margin-top: -10px;
+    margin-left: -240px;
+}
+
+.btn-continue {
+    background-color: #E20613;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    font-family: Univers B;
+}
+
+.btn-continue:hover {
+    background-color: #E20613;
+    color: white;
+}
+
+.btn-continue:disabled {
+    background-color: #EDEBE9;
+    color: #605E5C80;
+}
+
+.grey-box-alt {
+    background-color: #ebebeb;
+    margin-left: -25px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}

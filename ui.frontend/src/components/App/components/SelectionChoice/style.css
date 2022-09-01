@@ -1,0 +1,205 @@
+.choice-container {
+    display: flex;
+    gap: 60px;
+}
+
+.choice-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.choice-item img {
+    width: 50px;
+    height: 50px;
+}
+
+input[type="radio"] {
+    /* Add if not using autoprefixer */
+    -webkit-appearance: none;
+    appearance: none;
+    /* For iOS < 15 to remove gradient background */
+    background-color: #fff;
+    /* Not removed via appearance */
+    margin: 0;
+    font: inherit;
+    color: currentColor;
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.1em solid #c6c6c6;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+}
+
+input[type="radio"]::before {
+    content: "";
+    width: 0.4em;
+    height: 0.4em;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em #E20613;
+}
+
+input[type="radio"]:checked::before {
+    transform: scale(1);
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.form-control:focus,
+.unit .btn {
+    box-shadow: none;
+}
+
+.unit.btn-group {
+    margin-left: -5.6em;
+    gap: 5px;
+}
+
+.unit {
+    margin-left: -1.3em;
+}
+
+.unit-item {
+    background-color: #EDEBE9;
+    border-radius: 0px;
+    padding: 7px;
+    cursor: pointer;
+    color: #605E5C80;
+}
+
+.unit-item:hover {
+    color: black;
+}
+
+
+.unit-meter {
+    margin-left: -1.8em;
+}
+
+.active-unit {
+    background-color: white !important;
+    color: black;
+    border-left: none !important;
+}
+
+.consent-text {
+    font-size: 10px;
+}
+
+.email-img-content {
+    position: relative;
+}
+
+.icon-email {
+    position: absolute;
+    width: 100px;
+    top: -5px;
+    left: -30px;
+}
+
+.image-email {
+    width: 100%;
+    border-radius: 0px 0px 50px 0px;
+}
+
+.white-box {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.report-section .hstack {
+    justify-content: space-between;
+    align-items: end;
+}
+
+.report-section .choice-text {
+    margin-bottom: 0px;
+}
+
+.blue-border {
+    border: 2px solid rgba(0, 155, 180, 1)
+}
+
+.blue-border-dashed {
+    border: 2px dashed rgba(0, 155, 180, 1);
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: block;
+}
+
+.landlord-dot {
+    background-color: rgba(0, 155, 180, 1);
+}
+
+.landlord-text {
+    color: rgba(0, 155, 180, 1);
+}
+
+.tenant-dot {
+    background-color: rgba(0, 155, 180, 0.15);
+}
+
+.tenant-text {
+    color: rgba(0, 155, 180, 0.15);
+}
+
+.black-text {
+    color: black;
+}
+
+.icon-heizung {
+    width: 110px;
+    cursor: pointer;
+}
+
+.cross-text {
+    text-decoration: line-through;
+}
+
+.discount-text {
+    color: #E20613;
+}
+
+.extra-space {
+    padding-bottom: 120px;
+}
+
+.move-top {
+    margin-top: -90px;
+}
+
+.hidden-element-selection-4, .hidden-element-selection-5 {
+    display: none;
+}
+
+.fs-22 {
+    font-size: 22px;
+}
+
+.fs-40 {
+    font-size: 40px;
+}
+
+#bar-canvas {
+    /* width: 565px; */
+    height: 400px;
+}

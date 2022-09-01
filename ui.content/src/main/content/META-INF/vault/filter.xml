@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/techemco2-react" mode="merge"/>
+    <filter root="/content/techemco2-react" mode="merge"/>
+    <filter root="/content/dam/techemco2-react/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/techemco2-react" mode="merge"/>
+</workspaceFilter>

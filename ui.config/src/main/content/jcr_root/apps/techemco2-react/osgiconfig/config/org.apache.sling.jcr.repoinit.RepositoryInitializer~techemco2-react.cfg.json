@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/techemco2-react",
+        "create path (nt:unstructured) /content/dam/techemco2-react/jcr:content",
+        "set properties on /content/dam/techemco2-react/jcr:content\n  set cq:conf{String} to /conf/techemco2-react\n  set jcr:title{String} to \"Techemco2app React\"\nend"
+    ]
+}

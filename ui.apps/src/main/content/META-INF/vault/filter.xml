@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/techemco2-react/clientlibs"/>
+    <filter root="/apps/techemco2-react/components"/>
+    <filter root="/apps/techemco2-react/i18n"/>
+</workspaceFilter>

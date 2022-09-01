@@ -1,0 +1,29 @@
+.stepper-nav-item {
+    border-top: 3px solid;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 140px;
+}
+
+.nav-active {
+    border-top-color: #E20613;
+    opacity: 1;
+}
+
+.stepper-nav {
+    gap: 15px;
+}
+
+.stepper-header {
+    gap: 5px;
+}
+
+.stepper-text {
+    font-family: 'Univers B';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+}

@@ -1,0 +1,57 @@
+@font-face {
+    font-family: Univers LT Std;
+    src: url(./assets/fonts/UniversLTCYR-45Light.otf);
+  }
+
+  @font-face {
+    font-family: Univers LT Obl;
+    src: url(./assets/fonts/UniversLTCYR-45LightOblique.otf);
+  }
+
+  @font-face {
+    font-family: Univers Obl;
+    src: url(./assets/fonts/UniversLTCYR-55Oblique.otf);
+  }
+
+  @font-face {
+    font-family: Univers Roman;
+    src: url(./assets/fonts/UniversLTCYR-55Roman.otf);
+  }
+
+  @font-face {
+    font-family: Univers B;
+    src: url(./assets/fonts/UniversLTCYR-65Bold.otf);
+  }
+
+  @font-face {
+    font-family: Univers B Obl;
+    src: url(./assets/fonts/UniversLTCYR-65BoldOblique.otf);
+  }
+
+  .App {
+    font-family: Univers Roman;
+  }
+
+  .univers-normal {
+    font-family: Univers LT Std;
+  }
+
+  .univers-bold {
+    font-family: Univers B;
+  }
+
+  .univers-roman {
+    font-family: Univers Roman;
+  }
+
+  .form-control {
+    border-radius: 0px;
+  }
+  
+  input {
+    font-family: Univers B;
+  }
+
+  input::placeholder {
+    font-family: Univers LT Std;
+  }
